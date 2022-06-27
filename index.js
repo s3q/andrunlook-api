@@ -12,7 +12,7 @@ const andrProgressRouter = require("./router/andrProgress")
 const andrPublicProgressRouter = require("./router/andrPublicProgress")
 
 
-const port = 8800
+const port = process.env.PORT || 8800
 
 dotenv.config()
 
